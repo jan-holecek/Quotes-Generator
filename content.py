@@ -11,7 +11,6 @@ MAX_W, MAX_H = 1080, 1080
 img = Image.open('img/background_black.png')
 draw = ImageDraw.Draw(img)
 font = ImageFont.truetype('fonts/Playfair-font.ttf', 90)
-font_author = ImageFont.truetype('fonts/Playfair-font.ttf', 50)
 
 text = SortMessage(quote_text, 20)
 bounding_box = [0, 0, MAX_W-1, MAX_H-1]
