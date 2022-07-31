@@ -1,8 +1,4 @@
-from PIL import Image, ImageDraw, ImageFont, ImageChops, ImageOps
-from io import BytesIO
-import requests
 import os
-import json
 
 def SortMessage(msg, limit): 
     final = []
