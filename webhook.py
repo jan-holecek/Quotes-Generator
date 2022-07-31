@@ -2,7 +2,7 @@ from discord_webhook import DiscordWebhook
 import content
 
 webhook = DiscordWebhook(
-    url="https://discord.com/api/webhooks/1002879338036863096/rkoRJL12W39SYU6qcO8efiuzSUfO260PuYsHZrXKLVNbcesgANqwj7FmXq0qUuETvDFT", 
+    url="URL", 
     username="Perfect_Citaty", 
     content="Citát č." + str(content.number)
 )
